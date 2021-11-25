@@ -1,6 +1,19 @@
 
-
 POST http://localhost:5001/mongodb HTTP/1.1
+content-type: application/json
+
+{
+  "database": "IshmeetDB",
+  "collection": "people",
+  "Document": {
+    "First_Name": "Jhon",
+    "Age": 50
+  }
+}
+
+###
+
+GET http://localhost:5001/mongodb HTTP/1.1
 content-type: application/json
 
 {
