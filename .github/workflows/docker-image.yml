@@ -19,7 +19,7 @@ jobs:
     - name: push-to-ghcr
       uses: macbre/push-to-ghcr@v8
       with:
-        image_name: ghcr.io/eduvami/mongodbapi:latest
+        image_name: mongodbapi
         github_token: ${{ secrets.GITHUB_TOKEN }}
     
 
